@@ -1,0 +1,584 @@
+/* ALL WEBPPAGES */
+/* NAVIGATION BAR */
+#navigation {
+	list-style-type: none;
+	background-color: #333333;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navigation li a {
+	display: block;
+	text-decoration: none;
+	padding: 15px 25px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+}
+
+#navigation li {
+	float: right;
+}
+
+#navigation li a:hover:not(.active) {
+	background-color: #111;
+}
+
+#navigation .active {
+	background-color: orange;
+}
+/* END OF NAVIGATION BAR*/
+h4 {
+	text-align: center;
+	font-size: 20px:
+	font-family: "Calibri", sans-serif;
+	padding: 15px 15px;
+	color: white;
+}
+p {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+li {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: white;
+}
+#style {
+	text-decoration: underline;
+	color: orange;
+	font-family: "Calibri", sans-serif;
+}
+#style-reference {
+	font-style: italic;
+	color: orange;
+}
+#style-reference-hover {
+	font-style: italic;
+	color: #333;
+}
+.text {
+	color: white;
+  	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	text-align: center;
+}
+/* BACKGROUND IMAGE REFERENCE */
+.background-reference {
+	position: fixed;
+	text-align: right;
+	color: black;
+	float: right;
+	padding-right: 5px;
+	bottom: 16px;
+	left: 0px;
+	right: 0px;
+	font-size: 12px;
+	font-family: "Calibri", sans-serif;
+}
+/* END OF BACKGROUND IMAGE REFERENCE */
+/* FOOTER */
+footer {
+	list-style-type: none;
+	background-color: #333333;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 30px;
+	width: 100%;
+}
+
+.name {
+	position: fixed;
+	text-align: left;
+	color: white;
+	float: left;
+	padding-left: 20px;
+	bottom: -16px;
+	left: 0px;
+	right: 0px;
+	font-size: 16px;
+	font-family: "Calibri", sans-serif;
+}
+
+.info {
+	position: fixed;
+	text-align: right;
+	color: white;
+	float: right;
+	padding-right: 20px;
+	bottom: -16px;
+	left: 0px;
+	right: 0px;
+	font-size: 16px;
+	font-family: "Calibri", sans-serif;
+}
+/* END OF FOOTER */
+/* END OF ALL WEBPAGES */
+
+
+
+
+
+
+
+
+
+
+/* HOME PAGE */
+body {
+	background-image: url("computer-767776_1920.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+.title {
+	text-align: center;
+	font-size: 100px;
+	font-family:  RockebyCd-Light.otf, sans-serif;
+}
+/* ABOUT BOX */
+.about {
+	margin-top: .5%;
+    margin-left: 13%;
+    width: 330px;
+    height: 180px;
+    background-color: #333;
+	position: absolute;
+}
+/* CODE FROM https://www.w3schools.com/css/css3_images.asp */
+/* HOVERS OVER PHOTO TO REVEAL REFERENCE */
+.example-about {
+	margin-top: 14%;
+	position: relative;
+	display: block;
+}
+.example-about-reference {
+ 	position: absolute;
+ 	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 226px;
+  	width: 330px;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: orange;
+}
+.example-about:hover .example-about-reference {
+  	opacity: 1;
+}
+/* END OF ABOUT BOX */
+/* INFO BOXES */
+/* CODE FROM https://stackoverflow.com/questions/27441404/text-div-expand-on-hover-with-css*/
+.expand {
+	padding: 0px 0px;
+	width: 700px;
+    height: 100px;
+    background: #333;
+    margin-top: .5%;
+    margin-left: 38%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    -webkit-transition: width 2s, height 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 2s;
+    font-family: "Calibri", sans-serif;
+}
+
+.expand:hover {
+    width: 700px;
+    height: 250px;
+}
+/* END OF INFO BOXES */
+/* END OF HOME PAGE */
+
+
+
+
+
+
+
+
+
+
+/* MOBILE IS */
+/* TITLE */
+.title-mobile {
+	text-align: center;
+	font-size: 50px;
+	font-family:  RockebyCd-Light.otf, sans-serif;
+	position: absolute;
+	margin-top: 3%;
+    margin-left: 15%;
+}
+/* END OF TITLE */
+/* ABOUT MOBILE IS */
+#about-mobile {
+	margin-top: .5%;
+    margin-left: 35%;
+    width: 400px;
+    height: 590px;
+    background-color: #333;
+	position: absolute;
+}
+/* END OF ABOUT MOBILE IS */
+/* PERSONAL REFLECTION FOR MOBILE IS */
+#personal-mobile {
+	margin-top: 7%;
+    margin-left: 64%;
+    width: 400px;
+    height: 300px;
+	position: absolute;
+	background-color: #333;
+}
+/* END OF PERSONAL REFLECTION FOR MOBILE IS */
+/* EXAMPLE FOR MOBILE IS */
+.example-mobile {
+	margin-top: 10%;
+    margin-left: 4%;
+    position: absolute;
+}
+.example-mobile-reference {
+	margin-top: 30.8%;
+    margin-left: 4.03%;
+    width: 427px; 
+    height: 70px;
+	position: absolute;
+	background-color: #333;
+}
+/* END OF EXAMPLE FOR MOBILE IS */
+/* END OF MOBILE IS */
+
+
+
+
+
+
+
+
+
+/* CUSTOMER RELATIONSHIP MANAGEMENT */
+/* TITLE */
+.title-customer {
+	text-align: center;
+	font-size: 50px;
+	font-family:  RockebyCd-Light.otf, sans-serif;
+	position: absolute;
+	margin-top: 3%;
+    margin-left: 24%;
+}
+/* END OF TITLE */
+/* ABOUT CUSTOMER RELATIONSHIP MANAGEMENT */
+#about-customer {
+	margin-top: 8%;
+    margin-left: 21%;
+    width: 400px;
+    height: 633px;
+    background-color: #333;
+	position: absolute;
+}
+/* END OF ABOUT CUSTOMER RELATIONSHIP MANAGEMENT */
+/* PERSONAL REFLECTION FOR CUSTOMER RELATIONSHIP MANAGEMENT */
+#personal-customer {
+	margin-top: 26.5%;
+    margin-left: 50%;
+    width: 400px;
+    height: 370px;
+	position: absolute;
+	background-color: #333;
+}
+/* END OF PERSONAL REFLECTION FOR CUSTOMER RELATIONSHIP MANAGEMENT */
+/* EXAMPLE FOR CUSTOMER RELATIONSHIP MANAGEMENT */
+.example-customer {
+	margin-top: 8%;
+	margin-left: 50%;
+	position: relative;
+	display: block;
+}
+.example-customer-reference {
+ 	position: absolute;
+ 	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 250px;
+  	width: 400px;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: orange;
+}
+/* CODE FROM https://www.w3schools.com/css/css3_images.asp */
+/* HOVERS OVER PHOTO TO REVEAL REFERENCE */
+.example-customer:hover .example-customer-reference {
+  	opacity: 1;
+}
+/* END OF EXAMPLE FOR CUSTOMER RELATIONSHIP MANAGEMENT*/
+/* END OF CUSTOMER RELATIONSHIP MANAGEMENT */
+
+
+
+
+
+
+
+
+
+/* CLOUD COMPUTING */
+/* TITLE */
+.title-cloud {
+	text-align: center;
+	font-size: 50px;
+	font-family:  RockebyCd-Light.otf, sans-serif;
+	position: absolute;
+	margin-top: 8%;
+    margin-left: 68%;
+}
+/* END OF TITLE */
+/* ABOUT CLOUD COMPUTING */
+#about-cloud {
+	margin-top: 4%;
+    margin-left: 8%;
+    width: 400px;
+    height: 600px;
+    background-color: #333;
+	position: absolute;
+}
+/* END OF ABOUT CLOUD COMPUTING */
+/* PERSONAL REFLECTION FOR CLOUD COMPUTING */
+#personal-cloud {
+    margin-top: 13%;
+    margin-left: 68%;
+    width: 400px;
+    height: 360px;
+	position: absolute;
+	background-color: #333;
+}
+/* END OF PERSONAL REFLECTION FOR CLOUD COMPUTING */
+/* EXAMPLE FOR CLOUD COMPUTING */
+.example-cloud1 {
+    position: relative;
+    margin-left: 38.5%;
+    margin-top: 2%;
+    display: block;
+}
+.example-cloud-reference1 {
+    width: 380px; 
+    height: 270px;
+	position: absolute;
+	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	background-color: #333;
+	opacity: 0;
+  	transition: .5s ease;
+  	background-color: orange;
+}
+/* CODE FROM https://www.w3schools.com/css/css3_images.asp */
+/* HOVERS OVER PHOTO TO REVEAL REFERENCE */
+.example-cloud1:hover .example-cloud-reference1 {
+  	opacity: 1;
+}
+.example-cloud2 {
+    position: relative;
+    margin-left: 38.5%;
+    margin-top: 3%;
+    display: block;
+}
+.example-cloud-reference2 {
+    width: 380px; 
+    height: 270px;
+	position: absolute;
+	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	background-color: #333;
+	opacity: 0;
+  	transition: .5s ease;
+  	background-color: orange;
+}
+/* CODE FROM https://www.w3schools.com/css/css3_images.asp */
+/* HOVERS OVER PHOTO TO REVEAL REFERENCE */
+.example-cloud2:hover .example-cloud-reference2 {
+  	opacity: 1;
+}
+/* END OF EXAMPLE FOR CLOUD COMPUTING */
+/* END OF CLOUD COMPUTING */
+
+
+
+
+
+
+
+
+
+
+/* DATA MANAGEMENT */
+/* TITLE */
+.title-data {
+	text-align: center;
+	font-size: 50px;
+	font-family:  RockebyCd-Light.otf, sans-serif;
+	position: absolute;
+	margin-top: 12%;
+    margin-left: 67%;
+}
+/* END OF TITLE */
+/* ABOUT DATA MANAGEMENT */
+#about-data {
+	margin-top: 4%;
+    margin-left: 7%;
+    width: 400px;
+    height: 610px;
+    background-color: #333;
+	position: absolute;
+}
+/* END OF ABOUT DATA MANAGEMENT */
+/* PERSONAL REFLECTION FOR DATA MANAGEMENT */
+#personal-data {
+	margin-top: 0.5%;
+    margin-left: 37%;
+    width: 400px;
+    height: 300px;
+	position: absolute;
+	background-color: #333;
+}
+/* END OF PERSONAL REFLECTION FOR DATA MANAGEMENT */
+/* EXAMPLE FOR DATA MANAGEMENT */
+.example-data {
+	margin-top: 23%;
+	margin-left: 43%;
+	position: absolute;
+}
+.example-data-reference {
+	margin-top: 44%;
+    margin-left: 43%;
+    padding-top: 0.1px;
+    width: 560px; 
+    height: 70px;
+	position: absolute;
+	background-color: #333;
+}
+/* END OF EXAMPLE FOR DATA MANAGEMENT*/
+/* END OF DATA MANAGEMENT */
+
+
+
+
+
+
+
+
+
+
+
+/* BIBLIOGRAPHY */
+.title-bibliography {
+	text-align: center;
+	font-size: 50px;
+	font-family:  RockebyCd-Light.otf, sans-serif;
+	margin-top: .5%;
+    margin-left: 3%;
+}
+/* REFERENCE */
+#reference {
+	margin-top: .5%;
+    margin-left: 14%;
+    width: 480px;
+    height: 1200px;
+    background-color: #333;
+	position: absolute;
+}
+#reference li {
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/* END OF REFERENCE */
+/* FEEDBACK */
+.feedback {
+	background-color:#333;
+	color: #FFF;
+	margin-top: 10%;
+    margin-left: 53%;
+    width: 480px;
+    height: 370px;
+}
+.name-feedback {
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.email-feedback {
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.comment-feedback {
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.submit-feedback {
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: white;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.title-feedback {
+	text-align: left;
+	font-weight: bold;
+	font-family: "Calibri", sans-serif;
+	color: orange;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 0.5px;
+}
+/* END OF FEEDBACK */
+/* END OF BIBLIOGRAPHY */
